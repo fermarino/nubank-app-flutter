@@ -15,7 +15,7 @@ class DescubraMais extends StatelessWidget {
           const Padding(
             padding: EdgeInsets.all(16.0), 
             child: Text(
-              'Veja Mais',
+              'Descubra Mais',
               style: TextStyle(
                 fontWeight: FontWeight.normal,
                 fontSize: 24, 
@@ -33,7 +33,7 @@ class DescubraMais extends StatelessWidget {
           Container(
             padding: const EdgeInsets.all(10),
             decoration: const BoxDecoration(
-              color: Color(0xFFE8fEF8),
+              color: Color(0xFFE8DEF8),
               borderRadius: BorderRadius.only(
                 bottomLeft:
                     Radius.circular(8),
@@ -49,7 +49,7 @@ class DescubraMais extends StatelessWidget {
                   padding: EdgeInsets.symmetric(
                       vertical: 5.0),
                   child: Text(
-                    'Seguro de Vida',
+                    'Seguro de vida',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 20,
@@ -60,7 +60,7 @@ class DescubraMais extends StatelessWidget {
                   padding: EdgeInsets.symmetric(
                       vertical: 5.0),
                   child: Text(
-                    '',
+                    'Cuide bem de quem você ama de um jeito simples.',
                     style: TextStyle(
                       fontSize: 18,
                       color: Colors.black54,
@@ -74,7 +74,7 @@ class DescubraMais extends StatelessWidget {
                     onPressed: () {},
                     style: ElevatedButton.styleFrom(
                       foregroundColor: Colors.white,
-                      backgroundColor: const Color(0xFFE8a1F0),
+                      backgroundColor: const Color(0xFF8A05BE),
                     ),
                     child: const Text(
                       'Conhecer',

@@ -32,7 +32,7 @@ class _CartaocreditoState extends State<CartaoCredito> {
           ),
           const SizedBox(height: 10),
           const Text(
-            "R\$ 4000",
+            "R\$ 4000,39",
             style: TextStyle(fontSize: 24),
           ),
           const SizedBox(height: 15),
@@ -46,7 +46,7 @@ class _CartaocreditoState extends State<CartaoCredito> {
             style: const ButtonStyle(
                 backgroundColor:
                     WidgetStatePropertyAll<Color>(Colors.grey)),
-            child: const Text("Renegocie",
+            child: const Text("Renegociar",
                 style: TextStyle(fontSize: 18, color: Colors.black)),
           )
         ],
